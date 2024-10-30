@@ -7,16 +7,14 @@
 </head>
 <body>
     <h1>Wenceslao García Chando</h1>
-
+    <h2>Hola borja</h2>
+    
     <?php
         date_default_timezone_set('Europe/Madrid');
         echo date('H:i:s');
-
-        
     ?>
 
     <div id="relojCliente"></div>
-    
     <form action="insertar.php" method="POST">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
